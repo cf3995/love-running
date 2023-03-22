@@ -25,3 +25,31 @@ h1, h2 {
     float: left;
     font-size: 280%;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu li:first-child {
+    order: 1
+}
+
+#menu li:nth-child(2) {
+    order: 2
+}
+
+#menu li:nth-child(3) {
+    order: 3
+}

@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a
+    color: #3a3a3a;
 }
 
 /* headings and logo */
@@ -18,7 +18,7 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525
+    color: #252525;
 }
 
 #logo {
@@ -175,7 +175,7 @@ hr {
 
 #welcome {
     text-align: center;
-    margin: 20px;
+    margin: 20px 0;
     font-size: 280%;
 }
 
@@ -251,7 +251,7 @@ footer {
 }
 
 #photos > img {
-    width: 100%
+    width: 100%;
 }
 
 /* Media queries */
@@ -295,5 +295,29 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
     }
 }
